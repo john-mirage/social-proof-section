@@ -49,6 +49,7 @@ module.exports = {
     },
     fontSize: {
       "16": ["1rem", { lineHeight: "1" }],
+      "16-quote": ["1rem", { lineHeight: "1.375rem" }],
       "18": ["1.125rem", { lineHeight: "1.5625rem" }],
       "40": ["2.5rem", { lineHeight: "2rem" }],
     },
@@ -63,6 +64,7 @@ module.exports = {
     },
     borderRadius: {
       "8": "0.5rem",
+      "full": "9999px",
     },
     extend: {
       fontFamily: {

@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Testimonial } from './testimonial';
 
 @Component({
   selector: 'app-testimonial',
@@ -6,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./testimonial.component.css']
 })
 export class TestimonialComponent implements OnInit {
+  @Input() testimonial: Testimonial = {
+    avatar: "",
+    name: "",
+    quote: "",
+  };
 
   constructor() { }
 
