@@ -60,6 +60,7 @@ module.exports = {
       "16-quote": ["1rem", { lineHeight: "1.375rem" }],
       "18": ["1.125rem", { lineHeight: "1.5625rem" }],
       "40": ["2.5rem", { lineHeight: "2rem" }],
+      "56": ["3.5rem", { lineHeight: "3rem" }],
     },
     fontWeight: {
       "400": "400",
@@ -67,8 +68,9 @@ module.exports = {
       "700": "700",
     },
     letterSpacing: {
-      "12": "0.075rem",
       "06": "0.0375rem",
+      "12": "0.075rem",
+      "20": "0.125rem",
     },
     borderRadius: {
       "8": "0.5rem",
