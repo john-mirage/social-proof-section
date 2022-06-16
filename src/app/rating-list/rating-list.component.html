@@ -1,5 +1,5 @@
-<section class="mb-48">
-  <ul class="space-y-16">
-    <app-rating class="block" *ngFor="let rating of ratings" [company]="rating"></app-rating>
+<section class="mb-48 xl:mb-0">
+  <ul class="space-y-16 xl:flex xl:flex-col">
+    <app-rating class="block xl:self-center xl:first:self-start xl:last:self-end" *ngFor="let rating of ratings" [company]="rating"></app-rating>
   </ul>
 </section>

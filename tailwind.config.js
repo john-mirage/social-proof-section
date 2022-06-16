@@ -6,6 +6,11 @@ module.exports = {
     "./src/**/*.{html,ts}",
   ],
   theme: {
+    screens: {
+      sm: "423px",
+      md: "624px",
+      xl: "1158px",
+    },
     colors: {
       "very-dark-magenta": "hsl(300, 43%, 22%)",
       "soft-pink": "hsl(333, 80%, 67%)",
@@ -43,7 +48,10 @@ module.exports = {
       "96": "6rem",
       "100": "6.25rem",
       "128": "8rem",
+      "234": "14.625rem",
       "256": "16rem",
+      "266": "16.625rem",
+      "450": "28.125rem",
       "512": "32rem",
       "1024": "64rem",
     },
